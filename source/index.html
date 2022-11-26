@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <script src="javascript.js"></script>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <ul class="main-nav__site-list">
+                <li class="main-nav__site-item">
+                    <a href="woman.html" class="link">Woman</a>
+                </li>
+                <li class="main-nav__site-item">
+                    <a href="man.html">Man</a>
+                </li>
+                <li class="main-nav__site-item">
+                    <a href="new.html">New</a>
+                </li>
+            </ul>
+            <a href="index.html">
+                <img src="../images/Nîmes.svg" width="75" height="17">
+            </a>
+            <ul class="main-nav__user-list">
+                <li class="main-nav__user-item">
+                    <button class="user-item__button" type="button">
+                        <svg width="22" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1h3.636l2.437 11.477c.083.395.31.75.643 1.002a1.89 1.89 0 0 0 1.175.378h8.836c.427.008.843-.126 
+                            1.175-.378a1.7 1.7 0 0 0 .643-1.002L21 5.286H5.545m3.637 12.857c0 .473-.407.857-.91.857-.501 0-.908-.384-.908-.857 
+                            0-.474.407-.857.909-.857s.909.383.909.857Zm10 0c0 .473-.407.857-.91.857-.501 0-.908-.384-.908-.857 
+                            0-.474.407-.857.909-.857s.909.383.909.857Z" stroke="#151C22" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </li>
+                <li class="main-nav__user-item">
+                    <button class="user-item__button" type="button">
+                        <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m19 19-4.35-4.35M17 9A8 8 0 1 1 1 9a8 8 0 0 1 16 0Z" stroke="#151C22" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-container">
+
+        <h1 class="visually-hidden">Nimes clothes shop</h1>
+
+        <article class="new-collection">
+            <div class="new-collection__wrapper">
+                <p class="new-collection__slogan">The quality you deserve</p>
+                <h2 class="new-collection__title">denim</h2>
+                <a class="new-collection__button">Check new collection</a>
+            </div>
+            <div class="new-collection__photo">
+                <img src="../images/matheus 1.jpg" width="430" height="517" alt="Девушка в куртке">
+            </div>            
+        </article>
+        <section class="bestsellers">
+            <div class="bestsellers__header caption">
+                <h2 class="bestsellers__header__title caption__title">Bestsellers</h2>
+                <a class="bestsellers__header__button caption__button" href="#">View all</a>
+            </div>
+            <ul class="bestsellers__card-list">
+                <li class="bestsellers__card-item">
+                    <img src="../images/bestsellers-1.jpg" width="270px" height="349" alt="Фотография мужчины в куртке">
+                    <h3 class="bestsellers__card-item__name">Jacket</h3>
+                    <span class="bestsellers__card-item__price">$120</span>
+                </li>
+                <li class="bestsellers__card-item">
+                    <img src="../images/bestsellers-2.jpg" width="270px" height="349" alt="Фотография мужчины в куртке">
+                    <h3 class="bestsellers__card-item__name">Overalls</h3>
+                    <span class="bestsellers__card-item__price">$140</span>
+                </li>
+                <li class="bestsellers__card-item">
+                    <img src="../images/bestsellers-3.jpg" width="270px" height="349" alt="Фотография мужчины в куртке">
+                    <h3 class="bestsellers__card-item__name">Jacket</h3>
+                    <span class="bestsellers__card-item__price">$90</span>
+                </li>
+                <li class="bestsellers__card-item">
+                    <img src="../images/bestsellers-4.jpg" width="270px" height="349" alt="Фотография мужчины в куртке">
+                    <h3 class="bestsellers__card-item__name">Overalls</h3>
+                    <span class="bestsellers__card-item__price">$160</span>
+                </li>
+            </ul>
+        </section>
+        <article class="news">
+            <div class="news__header caption">
+                <h2 class="news__header__title caption__title">News</h2>
+                <a class="news__header__button caption__button" href="#">View all</a>
+            </div>
+            <div class="news-blog">
+                <img class="news-blog__image" src="../images/news-photo.jpg" width="700" height="370" alt="фотография новой коллекции">
+                <div class="news-blog__headline">
+                    <h3 class="news-blog__headline__title">G- Star Updates Its<br>Sustainable Collection</h3>
+                    <span class="news-blog__headline__date">Feb 12, 2020</span>
+                    <p class="news-blog__headline__depiction">G-Star Raw is pushing the
+                                                            <br>sustainability movement forward
+                                                            <br>with a collection of stretch denim<br>items for spring 2020 which is
+                                                            <br>particularly designed for reuse...</p>
+                    <a class="news-blog__headline__button" href="#">Read more ...</a>
+                </div>
+            </div>
+        </article>
+        <section class="shop-category">
+            <div class="shop-category__header caption">
+                <h2 class="shop-category__header__title caption__title">Shop by category</h2>
+                <a class="shop-category__button caption__button" href="#">View all</a>
+            </div>
+            <ul class="shop-category__list">
+                <li class="shop-category__item">
+                    <img src="../images/s-category1.jpg" width="270" height="349" alt="фото с джинсами">
+                    <span class="shop-category__name">Jeans</span>
+                </li>
+                <li class="shop-category__item">
+                    <img src="../images/s-category2.jpg" width="270" height="349" alt="фото с рубашкой">
+                    <span class="shop-category__name">Shirts</span>
+                </li>
+                <li class="shop-category__item">
+                    <img src="../images/s-category3.jpg" width="270" height="349" alt="фото с курткой">
+                    <span class="shop-category__name">Jacket</span>
+                </li>
+                <li class="shop-category__item">
+                    <img src="../images/s-category4.jpg" width="270" height="349" alt="фото с комбинезоном">
+                    <span class="shop-category__name">Overalls</span>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <div class="page-footer__wrapper">
+            <img src="../images/white-logo.svg" width="65" height="17">
+            <ul class="footer-nav__list">
+                <li class="footer-nav__item">Shop</li>
+                <li class="footer-nav__item">Delivery</li>
+                <li class="footer-nav__item">Service</li>
+                <li class="footer-nav__item">Sitemap</li>
+                <li class="footer-nav__item">Contacts</li>
+            </ul>
+            <ul class="footer-social-nav__list">
+                <a class="footer-social-nav__item">
+                    <svg width="12" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.583 11.5h2.604l1.042-4H7.583v-2c0-1.03 0-2 2.083-2h1.563V.14C10.889.097 9.607 0 8.252
+                        0 5.424 0 3.416 1.657 3.416 4.7v2.8H.291v4h3.125V20h4.167v-8.5Z" fill="#fff" />
+                    </svg>
+                </a>
+                <a class="footer-social-nav__item">
+                    <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10 0c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 
+                            1.216.598 1.772 1.153.509.5.902 1.105 1.153 1.772.247.637.415 1.363.465 2.428.047 1.066.06 
+                            1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 
+                            1-1.153 1.772c-.5.508-1.105.902-1.772 1.153-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 
+                            0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153A4.904 4.904 0 0 1 
+                            .525 16.55C.277 15.913.11 15.187.06 14.122.013 13.056 0 12.717 0 10c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 
+                            1 1.153-1.772A4.897 4.897 0 0 1 3.45.525C4.088.277 4.812.11 5.878.06 6.944.013 7.283 0 10 0Zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm6.5-.25a1.25 1.25 0 
+                            1 0-2.5 0 1.25 1.25 0 0 0 2.5 0ZM10 7a3 3 0 1 1 0 6 3 3 0 0 1 0-6Z" fill="#fff" />
+                    </svg>
+                </a>
+                <a class="footer-social-nav__item">
+                    <svg width="21" height="21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.928.094a10.768 10.768 0 0 0-7.13 1.542C2.694 2.959 1.16 4.969.478 7.294a9.637 9.637 0 0 0 .613 6.991c1.076 2.183 
+                            2.94 3.918 5.245 4.885a7.455 7.455 0 0 1 .17-2.293c.192-.839 1.35-5.463 1.35-5.463a3.611 3.611 0 0 1-.338-1.577c0-1.485.893-2.593 
+                            2.003-2.593.2-.003.398.036.58.113.183.077.346.191.479.334.132.143.231.312.29.495.059.183.075.376.05.566 
+                            0 .9-.603 2.262-.917 3.54-.063.235-.066.48-.012.716.055.236.166.456.326.643.16.188.363.336.593.434.23.098.482.142.733.13 
+                            1.977 0 3.302-2.43 3.302-5.3 0-2.2-1.517-3.849-4.315-3.849a5.13 5.13 0 0 0-1.963.311c-.625.23-1.195.58-1.676 1.029-.48.448-.86.986-1.118 1.58a4.58 4.58 0 
+                            0 0-.379 1.874c-.03.713.21 1.413.675 1.97a.48.48 0 0 1 .181.25c.03.1.026.207-.012.304-.048.184-.169.623-.217.784a.347.347 0 0 1-.067.15.38.38 
+                            0 0 1-.464.103c-1.441-.553-2.12-2.076-2.12-3.815 0-2.847 2.483-6.255 7.451-6.255 3.955 0 6.584 2.777 6.584 5.747 0 3.91-2.268 6.848-5.619 
+                            6.848-.5.015-.998-.09-1.444-.309A2.945 2.945 0 0 1 9.33 14.7s-.602 2.316-.721 2.754a7.89 7.89 0 0 1-1.062 2.131c.962.28 1.96.42 2.965.416a10.783 10.783 0 
+                            0 0 3.988-.76 10.444 10.444 0 0 0 3.38-2.168 9.972 9.972 0 0 0 2.256-3.246 9.642 9.642 0 0 0 .788-3.829c0-2.415-.912-4.748-2.566-6.568C16.706 
+                            1.61 14.422.425 11.93.095h-.002Z" fill="#fff" />
+                    </svg>
+                </a>
+                <a class="footer-social-nav__item">
+                    <svg width="22" height="18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21.162 2.656a8.383 8.383 0 0 1-2.402.658A4.196 
+                            4.196 0 0 0 20.6 1c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 
+                            11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.73 1.86 3.48a4.168 4.168 0 0 
+                            1-1.894-.522v.052a4.185 4.185 0 0 0 3.355 4.1 4.209 4.209 0 0 1-1.89.073A4.185 4.185 0 0 0 6.97 13.65a8.393 8.393 
+                            0 0 1-6.19 1.732 11.83 11.83 0 0 0 6.41 1.88c7.692 0 11.9-6.373 11.9-11.9 
+                            0-.18-.006-.362-.014-.54a8.495 8.495 0 0 0 2.087-2.165v-.001Z" fill="#fff" />
+                    </svg>
+                </a>
+            </ul>
+        </div>
+    </footer>
+</body>
